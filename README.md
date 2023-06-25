@@ -1,6 +1,6 @@
 # Revive Duniya v1.0 Theme: sustainability
 
-![Homepage](https://github.com/Revive-Duniya/v1.0/blob/main/src/assets/images/hashconnect.gif)
+![Homepage](https://github.com/codewithmide/ReviveDuniyaFrontend/blob/main/src/assets/images/hashconnect.gif)
 
 Revive Duniya is an immersive game that challenges players to build a sustainable environment for humanity. In this game, you have the power to make a difference by implementing eco-friendly practices, promoting renewable energy sources, and creating a harmonious balance between human activities and nature.
 
