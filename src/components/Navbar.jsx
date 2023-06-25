@@ -75,7 +75,7 @@ const NavBar = () => {
             <p className="oxanium tracking-wide mt-4 text-center text-sm">Unleash the power of a reborn world!</p>
             <h2 className="text-md uppercase font-bold oxanium mt-3">Create an account</h2>
             <div className="flex flex-col w-full gap-1 mb-3">
-              <label htmlFor="text" className="text-sm lato items-start text-left">Email: </label>
+              <label htmlFor="text" disable className="text-sm lato items-start text-left">Email: </label>
               <input type="text" name="text" id="text" placeholder="Enter your email" className="oxanium text-sm py-3 pl-3 rounded-md outline-none border border-white text-white bg-[transparent]" />
             </div>
             <div className="flex flex-col w-full gap-1 mb-3">
