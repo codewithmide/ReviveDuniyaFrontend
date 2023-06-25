@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Revive Duniya v1.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Homepage](https://github.com/Revive-Duniya/v1.0/blob/main/src/assets/images/homepage.PNG)
 
-## Available Scripts
+Revive Duniya is an immersive game that challenges players to build a sustainable environment for humanity. In this game, you have the power to make a difference by implementing eco-friendly practices, promoting renewable energy sources, and creating a harmonious balance between human activities and nature.
 
-In the project directory, you can run:
+## Game Overview
 
-### `npm start`
+Revive Duniya offers a unique gaming experience where you can:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Design and develop a virtual world with sustainable infrastructure and green spaces.
+- Make crucial decisions to minimize environmental impact and preserve natural resources.
+- Engage in exciting missions and quests to address real-world environmental challenges.
+- Compete in thrilling competitions to showcase your sustainability skills and earn rewards.
+- Collaborate with friends to tackle global environmental issues and create a lasting impact.
+- Explore and interact with a visually stunning and dynamically changing game environment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+- **Build and Customize**: Construct and personalize your virtual world with eco-friendly buildings, renewable energy installations, and lush green landscapes.
+- **Educational Content**: Learn about sustainability, climate change, and ecological concepts through informative in-game resources.
+- **Competitions and Prizes**: Participate in ongoing and past competitions, compete against other players, and win exciting rewards.
+- **Real-time Challenges**: Experience dynamic events and missions that reflect real-world environmental situations and test your problem-solving abilities.
+- **Social Interaction**: Connect with a vibrant community of like-minded players, exchange ideas, and collaborate on environmental projects.
+- **Progressive Gameplay**: Unlock new features, abilities, and game elements as you progress, and unlock achievements for your sustainable accomplishments.
+- 
+## Use of Hedera
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+How can Hedera Hashgraph enhance our project?
 
-### `npm run build`
+Hedera Hashgraph offers several advantages that greatly benefit our project. One of the key benefits is its ability to enhance the user experience. In traditional blockchain networks, high gas transaction fees can be a significant barrier for users, especially when engaging in activities like playing games. However, with Hedera Hashgraph, we can execute transactions with remarkably low fees, significantly improving the overall user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Furthermore, Hedera Hashgraph provides Mirror Nodes, a cutting-edge technology that enables us to retrieve data about users' NFTs, tokens, and other relevant information swiftly. This capability allows us to get data very fast compared to traditional blockchains.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+By leveraging smart contracts on Hedera Hashgraph, we can embrace a decentralized approach to managing subscriptions and NFT assets. This decentralized framework instills trust in our users, as they can rely on the transparency and security offered by smart contracts.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Moreover, the integration of NFTs within our project gives users greater control over their digital assets and a clear understanding of what is happening within the ecosystem. This feature empowers users, ensuring they have ownership and visibility over their virtual possessions.
 
-### `npm run eject`
+In summary, Hedera Hashgraph provides numerous benefits for our project. It improves the user experience by enabling low-fee transactions, offers fast data retrieval through Mirror Nodes, facilitates decentralized management of subscriptions and NFT assets using smart contracts, and empowers users with control over their digital assets. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Architecture
+![Architecture](https://github.com/Revive-Duniya/v1.0/blob/main/rd.PNG)
+We place significant trust in both mirror nodes and smart contracts in our frontend and game application. Smart contracts primarily handle transaction execution, while mirror nodes provide comprehensive data about user wallets. In the case of Hedera, it's important to note that gas fees are required for query transactions. However, we have implemented measures to enhance the user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## DUN and GRC fungible tokens
+VALUE PROPOSITION: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We empower players to embark on an eco-conscious journey that blends entertainment, earning potential, real-world impact and positive change whilst immersing them in an immersive, AI-driven gaming experience. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+TOKENS UTILITY (DEMAND)
+DUN token: in the game, DUN is used for valuable and exclusive purchases that affect the player’s performance. Demand for DUN will come from:
+ 
+Characters
+Special Vehicles
+Special Emotes
+Special Clothes
+Fighting styles
+Betting 
+NFT subscriptions
+Lending a NFT
+Buildings
+Governance 
+Staking 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+GRC Token: in the game, GRC is used for more generic purchases. Such as: 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Food
+Skins
+Farm Animals 
+Farming Equipments 
+Rewards 
 
-### Code Splitting
+TOKENS SUPPLY
+DUN Token: DUN will be unlocked at a predetermined schedule lasting 60 months starting from the public sale of DUN, ensuring a gradual release and reducing the risk of token dumping. The total token supply for DUN is 300,000,000 tokens. The initial circulating supply is set at 75,000,000 DUN i.e 25% of the total supply. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+GRC Token: the initial mint amount for GRC is set at 30,000,000 GRC. After the initial mint, a 3% (transaction fee) of each GRC transaction will be burned manually to reduce the over-supply and over-circulation of GRC.
+## Technologies
 
-### Analyzing the Bundle Size
+- ReactJS
+- JavaScript
+- Hedera Smart Contract Service
+- Hedera Token Service
+- Hedera Nirror Nodes
+- Hedera SDK
+- Solidity
+- TailwindCSS
+- Hashpack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- @codewithmide
+[![wakatime](https://wakatime.com/badge/user/fa7f7dfa-31c0-4185-8964-8be612dd48ed/project/0f682e5b-2e05-4304-ab02-bf309a06241a.svg)](https://wakatime.com/badge/user/fa7f7dfa-31c0-4185-8964-8be612dd48ed/project/0f682e5b-2e05-4304-ab02-bf309a06241a)
